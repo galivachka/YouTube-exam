@@ -1,0 +1,62 @@
+.Login_form{
+margin-top: 100px;
+margin-left: 500px;  
+}
+.password,
+.email{
+    width: 400px;
+}
+.App {
+    text-align: center;
+    background-color:green;
+    }
+    .Register{
+    margin-left: 450px;
+}
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: black;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid black;
+    }
+    .btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 25px 0px 0px 70px;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    

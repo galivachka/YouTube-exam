@@ -1,0 +1,46 @@
+.Single-iframe{
+    margin-top: 40px;
+    margin-left: 65px;
+}
+.iframe-all{
+    display: flex;
+    height: 600px;
+}
+.right-sidebar{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.app-js header{
+    height:  670vh;
+}
+@media screen and (max-width:1000px){
+
+    .iframe-all{
+        display: block;
+       }
+    .iframeDiv{
+     width: 600px;
+    }
+    .iframe{
+        width: 200px;
+    }
+ }
+@media screen and (max-width:940px){
+ 
+   .iframeDiv{
+    width: 300px;
+   }
+}
+@media screen and (max-width:740px){
+
+    .sidebar__bottom__1{
+        height: 1110vh;
+       
+    }
+    .iframe-all{
+        display: block;
+       }
+    .iframeDiv{
+     width: 300px;
+    }
+ }

@@ -1,0 +1,549 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+ 
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    position: relative;
+    height: 135vh;
+}
+.app-js header{
+  
+    background-color: black;
+    height: 135vh;
+}
+.app-js .app-header{
+    background-color: black;
+    height: 135vh;
+}
+
+.app-js .person,
+.app-js .vidio,
+.app-js .dots,
+.app-js .notification{
+    color: white;
+}
+.hero {
+    display: flex;
+}
+.change_btn{
+    margin-left: 450px;
+
+}
+.app-js .change_btn{
+    margin-left: 650px;
+    background-color: black;
+    color: #fff;
+    
+}
+.app-js .change__btn{
+   border: none;
+    background-color: black;
+    color: #fff;
+    
+}
+
+.app-js .home__img,
+.app-js .home__link,
+.app-js .Trending__img,
+.app-js .Trending__link,
+.app-js .Registration__img,
+.app-js .Registration__link,
+.app-js .Library__img,
+.app-js .Library__link,
+.app-js .History__img,
+.app-js .History__link,
+.app-js .Watch__img,
+.app-js .Watch__link,
+.app-js .Favourites__img,
+.app-js .Favourites__link,
+.app-js .Like__img,
+.app-js .Like__link,
+.app-js .Music__img,
+.app-js .Music__link,
+.app-js .Games__img,
+.app-js .Games__link,
+.app-js .Setting__link{
+    color: #fff;
+    
+}
+.app-js .inpSerchImg{
+    color: black;
+}
+.logo {
+    width: 37px;
+    height: 25px;
+    color: red;
+}
+nav {
+    padding: 10px 0;
+}
+.navBar_nav_logo {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.NavBar__nav__logo__span {
+    font-size: large;
+    font-weight: 500;
+}
+.NavBar__nav__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar_nav_logo {
+    margin:0 20px ;
+}
+.change_btn{
+    margin-left: 640px;
+    border: none;
+    background-color: #fff;
+}
+.change__btn{
+
+    border: none;
+    background-color: #fff;
+}
+
+
+.hamburger {
+   
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    transition: 1s;
+}
+.hamburger:hover {
+    color: red;
+}
+.NavBar__nav__div__form__inp{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search{
+    /* position: relative; */
+    padding: 0 10px;
+    /* max-width: 840px; */
+    width: 840px;
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #EBEBEB;
+    background-color: #EBEBEB;
+}
+.inpSerchImg {
+    position: absolute;
+    right: 10px;
+}
+.vidio{
+    width: 30px;
+    height: 30px;
+    color: #17161675;
+}
+.dots{
+    width: 30px;
+    height: 30px;
+    color: #17161675;
+}
+.notification {
+    width: 30px;
+    height: 30px;
+    color: #17161675;
+
+}
+.person {
+    width: 30px;
+    height: 30px;
+    color: #17161675;
+}
+.NavBar_nav__companents {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 100px;
+}
+.sidebar {
+    width: 255px;
+    border-right: 2px solid #17161675;
+    padding: 0 0 0 20px;
+}
+.home {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.Games__img,
+.Music__img,
+.Like__img,
+.Favourites__img,
+.Watch__img,
+.History__img,
+.Library__img,
+.Registration__img,
+.Trending__img,
+.home__img {
+    width: 30px;
+    height: 30px;
+    color: #17161675;
+}
+.Games__img:hover,
+.Games__link:hover,
+.Music__img:hover,
+.Music__link:hover,
+.Like__img:hover,
+.Like__link:hover,
+.Favourites__img:hover,
+.Favourites__link:hover,
+.Watch__img:hover,
+.Watch__link:hover,
+.History__img:hover,
+.History__link:hover,
+.Library__img:hover,
+.Library__link:hover,
+.Registration__link:hover,
+.Trending__img:hover,
+.Trending__link:hover,
+.home__link:hover,
+.home__img:hover,
+.Setting__link:hover {
+    color: red;
+}
+.Games__link,
+.Music__link,
+.Like__link,
+.Favourites__link,
+.Watch__link,
+.History__link,
+.Library__link,
+.Registration__link,
+.Trending__link,
+.home__link,
+.Setting__link {
+    color: #17161675;
+    text-decoration: none;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+.Library__link {
+    margin-top: 50px;
+}
+.sidebar__bottom {
+        /* position: fixed;
+        bottom: 0; */
+    display: none;
+}
+
+.white {
+background-color: white;
+
+}
+.app-js{
+background-color: rgba(0, 0, 0, 0.482);
+color: white;
+}
+
+.settings{
+    transition: 1s;
+   padding-left: 65px;
+}
+.Setting__link{
+    color: rgb(127, 122, 122);
+    background-color: white;
+}
+.app-js .Setting__link{
+    background-color: black;
+    color: #fff;
+}
+.app-js .Setting__link:hover{
+   
+    color: red;
+}
+
+
+
+.Setting__img{
+
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+}
+.displayBlok {
+    /* color: #fff; */
+    display: block;
+}
+.dislayNone {
+    display: none;
+}
+.ava1{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+@media screen and (max-width:1200px){
+   
+    .search{
+        width: 500px;
+    }
+    .settings{   
+        margin-left: 35px; 
+     }
+}
+@media screen and (max-width:1000px){
+    .settings{   
+        margin-left: 35px; 
+     }
+    .search{
+        width: 500px;
+    }
+    .vidio{
+        width: 20px;
+        height: 20px;
+    }
+    .dots{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .notification {
+        width: 20px;
+        height: 20px;
+        
+    
+    }
+    .person {
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+@media screen and (max-width:940px){
+    .sidebar__bottom {
+   
+        display: none;
+    }
+    
+    .app-js header{
+        background-color: black;
+        /* height: 145vh; */
+    }
+    .settings{
+    
+        margin-left: 35px;
+       
+        
+     }
+    .app-js .change_btn{
+       
+        margin-left: 450px;
+        background-color: black;
+        color: #fff;
+        
+    }
+    .search{
+        width: 200px;
+    }
+    .vidio{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .dots{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .notification {
+        width: 20px;
+        height: 20px;
+        
+    
+    }
+    .person {
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+@media screen and (max-width:740px){
+    .app-header{
+        height: 2740vh;
+    }
+    .app-js header{
+        background-color: black;
+        height: 2800vh;
+    }
+    .sidebar__bottom{
+        height: 10vh;
+    }
+    .settings{
+        display: none;
+    }
+    .change_btn{
+        margin-left:340px ;
+    }
+    .NavBar_nav__companents{
+        margin: 0;
+    }
+    .NavBar__nav__logo__span {
+        display: none;
+    }
+    .search{
+        width: 420px;
+    }
+    .vidio,
+    .dots,
+    .notification{
+        display: none;
+    }
+    .person {
+        width: 30px;
+        height: 30px;
+        
+    }
+    .hamburger {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .app-js .change_btn{
+        margin-left: 350px;
+        background-color: black;
+        color: #fff;
+        
+    }
+    .sidebar__bottom {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        display: block;
+        bottom: 0;
+    }
+    .sidebar__bottom__1 {
+        display: flex;
+        align-items: center;
+        column-gap: 0px;
+        /* width: 100%; */
+        padding: 0 15px;
+        overflow-y: hidden;
+        
+        
+    }
+    .home,
+    .Library__link {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:562px){
+    header {
+        position: relative;
+        height: 2800vh;
+    }
+    .settings{
+        display: none;
+    }
+    .change_btn{
+        margin-left:240px ;
+    }
+    .app-js .change_btn{
+        margin-left: 200px;
+        background-color: black;
+        color: #fff;
+        
+    }
+    .search{
+        width: 300px;
+    }
+    .vidio,
+    .dots,
+    .notification{
+        display: none;
+    }
+    .person {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        
+    }
+    .hamburger {
+        display: none;
+    }
+    .sidebar__bottom {
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+        display: block;
+    }
+    .sidebar__bottom__1 {
+        display: flex;
+        align-items: center;
+        column-gap: 0px;
+        /* width: 100%; */
+        padding: 0 15px;
+        overflow-y: hidden;
+        
+    }
+    .home,
+    .Library__link {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:440px){
+    .search {
+        width: 250px;
+    }
+}
+@media screen and (max-width:400px){
+    .search {
+        width: 220px;
+    }
+}
+@media screen and (max-width:363px){
+    .search{
+        width: 140px;
+    }
+    .vidio,
+    .dots,
+    .notification{
+        display: none;
+    }
+    .person {
+        width: 30px;
+        height: 30px;
+        
+    }
+    .hamburger {
+        display: none;
+    }
+    .sidebar__bottom {
+        display: flex;
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+        display: block;
+        overflow-x: hidden;
+    }
+    .sidebar__bottom__1 {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        padding: 0 15px;
+        overflow-y: hidden;
+        
+    }
+    .home,
+    .Library__link {
+        margin-top: 0px;
+    }
+}

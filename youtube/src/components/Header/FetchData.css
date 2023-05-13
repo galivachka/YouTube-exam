@@ -1,0 +1,86 @@
+.Map {
+    width: 300px;
+    /* height: 200px; */
+    /* border: 10px; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.iframe {
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.Map {
+    height: 290px;
+    width: 100%;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    /* display: flex; */
+    flex-direction: column;
+}
+.ndDiv {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.iframe2 {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+    /* width: 200%; */
+}
+.Span {
+    /* font-size: medium; */
+    font-weight: 400;
+    font-size: 13px;
+}
+.MainDiv {
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+}
+.middleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0px; 
+    overflow-y: scroll;
+}
+.middleDiv::-webkit-scrollbar {
+    display: none;
+}
+.video__img{
+    width: 200px;
+}
+@media screen and (max-width:740px){
+    .middleDiv {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+
+    }
+   
+    .iframe2,
+    .iframe {
+        margin: 30px;
+        width: 80%;
+        height: 350px;
+    }
+    .Div,
+    .ndDiv {
+        width: 100%;
+        padding: 20px;
+    }
+    .Div {
+        height: 310px;
+    }
+    .Maap,
+    .Span2  {
+        padding: 0 22px;
+    }
+}
