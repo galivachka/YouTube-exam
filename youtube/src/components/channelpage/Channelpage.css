@@ -37,10 +37,7 @@
 }
 @media screen and (max-width:740px){
 
-    .sidebar__bottom__1{
-        /* height: 1110vh; */
-       
-    }
+
     .iframe-all{
         display: block;
        }

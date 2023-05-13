@@ -236,7 +236,7 @@ nav {
 .Library__link {
     margin-top: 50px;
 }
-.sidebar__bottom {
+.sidebar__b {
         /* position: fixed;
         bottom: 0; */
     display: none;
@@ -326,7 +326,7 @@ color: white;
     }
 }
 @media screen and (max-width:940px){
-    .sidebar__bottom {
+    .sidebar__b {
    
         display: none;
     }
@@ -382,7 +382,7 @@ color: white;
         background-color: black;
         height: 2800vh;
     }
-    /* .sidebar__bottom{
+    /* .sidebar__b{
         height: 10vh;
     } */
     .settings{
@@ -422,14 +422,14 @@ color: white;
         color: #fff;
         
     }
-    .sidebar__bottom {
+    .sidebar__b {
         display: flex;
         width: 100%;
         position: absolute;
         display: block;
         bottom: 0;
     }
-    .sidebar__bottom__1 {
+    .sidebar__bottom {
         display: flex;
         align-items: center;
         column-gap: 0px;
@@ -478,14 +478,14 @@ color: white;
     .hamburger {
         display: none;
     }
-    .sidebar__bottom {
+    .sidebar__b {
         display: flex;
         bottom: 0;
         width: 100%;
         position: absolute;
         display: block;
     }
-    .sidebar__bottom__1 {
+    .sidebar__bottom {
         display: flex;
         align-items: center;
         column-gap: 0px;
@@ -526,7 +526,7 @@ color: white;
     .hamburger {
         display: none;
     }
-    .sidebar__bottom {
+    .sidebar__b {
         display: flex;
         width: 100%;
         bottom: 0;
@@ -534,7 +534,7 @@ color: white;
         display: block;
         overflow-x: hidden;
     }
-    .sidebar__bottom__1 {
+    .sidebar__bottom {
         display: flex;
         align-items: center;
         column-gap: 30px;

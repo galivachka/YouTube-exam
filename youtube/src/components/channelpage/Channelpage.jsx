@@ -177,8 +177,8 @@ function Header() {
                 </div>
                 
 
-                <div className='sidebar__bottom'>
-                     <div className='sidebar__bottom__1'>
+                <div className='sidebar__b'>
+                     <div className='sidebar__bottom'>
                              <div className='home col-3'>   
                                  <Link to="/" className='home__link'><AiOutlineHome className='home__img'/></Link>
                              </div>

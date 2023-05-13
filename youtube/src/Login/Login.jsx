@@ -123,7 +123,7 @@ function BasicExample() {
 			return (
 				
 				<form className='Register'>
-				
+				<h1>Log In Please</h1>
 				
 				<label className="label">Email</label>
 				<input onChange={handleEmail} className="input"
