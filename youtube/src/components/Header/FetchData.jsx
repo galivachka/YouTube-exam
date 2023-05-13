@@ -54,9 +54,9 @@ useEffect(() => {
         myData.slice(0,15).map((element) => (
               <div className='Map'  key={element.id.videoId}>
              <Link to={`news/${element.id.videoId}`}>
-             <img src={element.snippet.thumbnails.medium.url} alt="video" />
-              <p className='MapP'>{element.snippet.channelTitle}</p>
-              <span className='Span'>{element.snippet.title}</span>
+             <img className='iframe-img' src={element.snippet.thumbnails.medium.url} alt="video" />
+              <p className='MapP'>{element.snippet.channelTitle}</p> 
+              <span className='Span'>{element.snippet.title}</span> 
               <span><br /><data>{element.snippet.publishTime}</data></span></Link>
               </div>
               
@@ -76,7 +76,7 @@ useEffect(() => {
               <img src={element.snippet.thumbnails.medium.url} alt="video" />
               <p className='Maap'>{element.snippet.channelTitle}</p>
               <span className='Span2'>{element.snippet.title}</span>
-              <span className='Span2'>publishTime<data>{element.snippet.publishTime}</data></span>
+              <span className='Span2'><data>{element.snippet.publishTime}</data></span>
               </Link>
               </div>
               
@@ -94,7 +94,7 @@ useEffect(() => {
               <img className='video__img' src={element.snippet.thumbnails.medium.url} alt="video" />
               <p className='Maap'>{element.snippet.channelTitle}</p>
               <span className='Span2'>{element.snippet.title}</span>
-              <span className='Span2'>publishTime<data>{element.snippet.publishTime}</data></span>
+              <span className='Span2'><data>{element.snippet.publishTime}</data></span>
               </Link>
               </div>
               

@@ -100,7 +100,7 @@ function Header() {
                      <button onClick={handleChange2} className='change__btn'><RxHamburgerMenu className='hamburger'/></button>
                          
                          <div className='navBar_nav_logo'>
-                             <BsYoutube className='logo'/>
+                             <BsYoutube  className='logo'/>
                              <span className='NavBar__nav__logo__span'>YouTube</span>
                          </div>
                          <form method='POST' className='NavBar__nav__div__form'>

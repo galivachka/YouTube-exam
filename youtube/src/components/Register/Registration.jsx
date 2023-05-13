@@ -136,20 +136,17 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!email || !password || !confirmPassword) {
-      setError("!Please enter all information");
-      return;
-    }
-
-    if (password.length < 6) {
-      setError("!Password must be at least 6 characters long");
-    }
-
-    if (password !== confirmPassword) {
-      setError("!Password not verified");
-      return;
-    }
-
+		const errorMessage = () => {
+			return (
+				<div
+				className="error"
+				style={{
+					display: error ? '' : 'none',
+				}}>
+				<h1>Please enter all the fields</h1>
+				</div>
+				);
+			};
     try {
       await firebase.auth().createUserWithEmailAndPassword(email, password);
     } catch (error) {
@@ -189,7 +186,7 @@ const Register = () => {
         <p>
           <Link to={"/login"} className="text-teal-400">
             Log in
-          </Link>{" "}
+          </Link>{"/"}
           if you are registered
         </p>
       </div>

@@ -17,12 +17,16 @@
 
     .iframe-all{
         display: block;
+       
        }
     .iframeDiv{
      width: 600px;
     }
     .iframe{
         width: 200px;
+    }
+    .right-sidebar{
+        margin-left: 65px;
     }
  }
 @media screen and (max-width:940px){
@@ -34,7 +38,7 @@
 @media screen and (max-width:740px){
 
     .sidebar__bottom__1{
-        height: 1110vh;
+        /* height: 1110vh; */
        
     }
     .iframe-all{
